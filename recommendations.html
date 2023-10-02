@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Final Project</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        #rec {
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        #rec h3 {
+            color: red;
+            width: 200px;
+            font-size: 20px;
+        }
+
+        #rec img {
+            height: 250px;
+            width: 200px;
+            border: 2px solid yellow;
+            /* initialization of an animation */
+            animation-name: anim;
+            animation-duration: 5s;
+        }
+
+        /* code for the animation */
+        @keyframes anim {
+            from {width: 0;}
+            to {width: 100%;}
+        }
+
+        #rec img:hover {
+            height: 260px;
+            width: 210px;
+            border-width: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header id="header">
+        <h1>Detective <strong>Conan</strong></h1>
+    </header>
+    <br>
+    <nav>
+        <ul class="nav">
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="./characters.html">Characters</a>
+            </li>
+
+            <li>
+                <a href="./adaptations.html">Adaptations</a>
+            </li>
+
+            <li>
+                <a href="./recommendations.html">Recommendations</a>
+            </li>
+
+            <li>
+                <a href="./contact_us.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="basic">
+            <div class="sticky">
+                <img src="./images/chibi_conan.png" alt="Chibi Conan" height="200">
+            </div>
+            <article>
+            <h2>Recommendations</h2>
+            
+            <div id="rec">
+                <div>
+                    <a href="https://myanimelist.net/anime/1535/Death_Note" target="_blank"><img src="https://cdn.myanimelist.net/images/anime/9/9453l.jpg?_gl=1*1h46nnv*_ga*MTY0NDM3ODEyMi4xNjgzOTkwMjI2*_ga_26FEP9527K*MTY4NDA3NDgzMS4yLjEuMTY4NDA3NTE4MS4yLjAuMA.." alt="Death Note Cover"></a>
+                    <h3>Death Note</h3>
+                </div>
+
+                <div>
+                    <a href="https://myanimelist.net/anime/13601/Psycho-Pass" target="_blank"><img src="https://cdn.myanimelist.net/images/anime/9/74097l.jpg" alt="Psycho-Pass Cover"></a>
+                    <h3>Psycho-Pass</h3>
+                </div>
+
+                <div>
+                    <a href="https://myanimelist.net/anime/19/Monster" target="_blank"><img src="https://cdn.myanimelist.net/images/anime/10/18793.jpg" alt="Monster Cover"></a>
+                    <h3>Monster</h3>
+                </div>
+
+                <div>
+                    <a href="https://myanimelist.net/anime/31043/Boku_dake_ga_Inai_Machi" target="_blank"><img src="https://cdn.myanimelist.net/images/anime/11/76932l.jpg" alt="Erased Cover"></a>
+                    <h3>Erased</h3>
+                </div>
+
+                <div>
+                    <a href="https://myanimelist.net/anime/2076/Kindaichi_Shounen_no_Jikenbo" target="_blank"><img src="https://cdn.myanimelist.net/images/anime/10/3741l.jpg" alt="The File of Young Kindaichi Cover"></a>
+                    <h3>The File of Young Kindaichi</h3>
+                </div>
+
+                <div>
+                    <a href="https://myanimelist.net/anime/12189/Hyouka" target="_blank"><img src="https://cdn.myanimelist.net/images/anime/13/50521.jpg" alt="Hyouka Cover"></a>
+                    <h3>Hyouka</h3>
+                </div>
+
+                <div>
+                    <a href="https://myanimelist.net/anime/2985/Majin_Tantei_Nougami_Neuro" target="_blank"><img src="https://cdn.myanimelist.net/images/anime/9/20929l.jpg" alt="Neuro: Supernatural Detective Cover"></a>
+                    <h3>Neuro: Supernatural Detective</h3>
+                </div>
+
+                <div>
+                    <a href="https://myanimelist.net/anime/341/Spiral__Suiri_no_Kizuna" target="_blank"><img src="https://cdn.myanimelist.net/images/anime/4/5012.jpg" alt="Spiral: Bond of Reasoning Cover"></a>
+                    <h3>Spiral: Bond of Reasoning</h3>
+                </div>
+            </div>
+            
+        </article>
+        <div class="sticky">
+            <img src="./images/chibi_conan.png" alt="Chibi Conan" height="200" >
+        </div>
+    </div>
+    </main>
+    <br>
+    <footer>
+        <div id="footer">
+            <p>Created by: Fatima Badaoui</p>
+            
+            <p>
+                Class: DCI_MAT23_E05
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

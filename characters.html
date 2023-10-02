@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Final Project</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Internal CSS -->
+    <style>
+
+        .odd {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .odd img {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            margin: 10px;
+            /* this is to add animation to the images */
+            animation-name: appear;
+            animation-duration: 4s;
+        }
+
+        .odd p {
+            text-align: left;
+        }
+
+        .even {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .even img {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            margin: 10px;
+            animation-name: appear;
+            animation-duration: 4s;
+        }
+
+        .even p {
+            text-align: right;
+        }
+
+        /* here we have the code to create the animation that we want  */
+        @keyframes appear {
+            from { width: 0px;}
+            to { width: 150px;}
+        }
+
+        p strong {
+            color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header id="header">
+        <h1>Detective <strong>Conan</strong></h1>
+    </header>
+    <br>
+    <nav>
+        <ul class="nav">
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="./characters.html">Characters</a>
+            </li>
+
+            <li>
+                <a href="./adaptations.html">Adaptations</a>
+            </li>
+
+            <li>
+                <a href="./recommendations.html">Recommendations</a>
+            </li>
+
+            <li>
+                <a href="./contact_us.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="basic">
+            <div class="sticky">
+                <img src="./images/chibi_conan.png" alt="Chibi Conan"
+                height="200">
+            </div>
+            <article>
+                <h2>Characters</h2>
+                <br><br>
+                <div class="odd">
+                    <img src="./images/conan.jpg" alt="Conan Edogawa" width="200">
+        
+                    <p>
+                        <strong>Conan Edogawa</strong><br>
+                        Child version of Shinichi Kudo. He's after the Black Organization to regain his original body. The show follows his journey and the different cases he encounters along the way.
+                    </p>
+                </div>
+
+                <div class="even">
+                    <img src="./images/Shinichi_Kudo.png" alt="Schinichi Kudo" width="200">
+        
+                    <p>
+                        <strong>Schinichi Kudo</strong><br>
+                        The main Protagonist of the Serie. He is a famous High School Student and Detective who helps the police solve numerous cases. After being forsed to ingest a Poison by the Black Organization, he became Conan Edogawa.
+                    </p>
+                </div>
+
+
+                <div class="odd">
+                    <img src="./images/ran.jpg" alt="Ran Mouri">
+
+                    <p>
+                        <strong>Ran Mouri</strong><br>
+                        Shinichi's childhood friend, and later his girlfriend. She doesn't know Conan's real identity. She's the one taking care of him along with her detective father, Kogoro. She is also skilled in karate.
+                    </p>
+                </div>
+
+                <div class="even">
+                    <img src="./images/Kogoro_Mouri.jpg" alt="Kogoro Mouri" width="200">
+        
+                    <p>
+                        <strong>Kogoro Mouri</strong><br>
+                        Former police officer and has worked as a private investigator since his release. He is the father of Ran. Previously unsuccessful, Kogoro continues to rise to fame after Shinichi Kudo's absence. This is because Conan, solves the cases for him. This is how he gained nationwide fame as the “sleeping Kogoro”.
+                    </p>
+                </div>
+
+                <div class="odd">
+                    <img src="./images/Hiroshi_Agasa.jpg" alt="Hiroshi Agasa" width="200">
+        
+                    <p>
+                        <strong>Hiroshi Agasa</strong><br>
+                        An inventor who lives right next to Shinichi Kudo's house. After Shinichi's rejuvenation, he advised Shinichi to assume a new identity and not to confide in anyone.
+                        He is a good friend of the Kudo family and is responsible for Conan's resources.
+                    </p>
+                </div>
+
+                <div class="even">
+                    <img src="./images/Sonoko_Suzuki.jpg" alt="Sonoko Suzuki" width="200">
+        
+                    <p>
+                        <strong>Sonoko Suzuki</strong><br>
+                        Comes from a wealthy family and is Ran's best friend. Along with her and Shinichi, she attends the same class at Teitan High School.
+                        Somotime Conan sedates him with the anesthetic chronometer so that he can solve the case with Sonoko's voice. 
+                    </p>
+                </div>
+
+                <div class="odd">
+                    <img src="./images/detective_boys.jpe" alt="Detective Boys" width="200">
+        
+                    <p>
+                        <strong>Detective Boys</strong><br>
+                        Ayumi Yoshida, Genta Kojima and Mituhiko Tsuburaya, the three are classmates and good friends of Conan Edogawa.
+                        Since Cona joined their Class they formed a group called Detective Boys and help random people solve mysteries. 
+                    </p>
+                </div>
+
+                <div class="even">
+                    <img src="./images/Ai_Haibara.png" alt="Ai Haibara" width="200">
+        
+                    <p>
+                        <strong>Ai Haibara</strong><br>
+                        Was one of the researchers of the Black Organization, codenamed Sherry. She took the same Poison that Schinichi took and became Ai Haibara. She was rescued by Dr. Hagasa and now lives in his House and is helping Conan in researching a Cure and taking down the Organization.
+                    </p>
+                </div>
+
+                <div class="odd">
+                    <img src="./images/Gin.png" alt="Gin" width="200">
+        
+                    <p>
+                        <strong>Gin</strong><br>
+                        A key member of the organization and is in close contact with the boss . Cold-blooded, he will stop at nothing to get the job done. His mind works just as coldly and astutely, with which he has almost caught Conan's tricks more than once. It is not difficult for him to see through people and their intentions.
+                    </p>
+                </div>
+
+                <div class="even">
+                    <img src="./images/vodka.jpg" alt="Vodka" width="200">
+        
+                    <p>
+                        <strong>Vodka</strong><br>
+                        Loyal member of the organization. He can usually be found at Gin's side and on the road with him. The two have a brotherly relationship with each other, which can be seen above all in Vodka's choice of words. Officially, Vodka is active in the field.
+                </div>
+
+                <div class="odd">
+                    <img src="./images/vermouth.jpg" alt="Vermouth" width="200">
+        
+                    <p>
+                        <strong>Vermouth</strong><br>
+                        High-level member of the organization and active in the area of ​​recognition. Vermouth previously appeared as Sharon Vineyard, whose death she directed. Since then she has mainly appeared in the role of her supposed daughter Chris Vineyard.
+                    </p>
+                </div>
+
+                <div class="even">
+                    <img src="./images/akai.jpg" alt="Schuichi Akai" width="200">
+        
+                    <p>
+                        <strong>Schuichi Akai</strong><br>
+                        Member of the FBI and active in fighting the organization.
+                        His connection to the FBI became known when he was called upon to organize Gin at the height of his career, and he returned to the FBI and continued the fight openly.
+                        He is one of the few that knows Conan real Identity and they have helped each other many times.
+                    </p>
+                </div>
+
+            </article>
+            <div class="sticky">
+                <img src="./images/chibi_conan.png" alt="Chibi Conan" height="200">
+            </div>
+        </div>
+    </main>
+    <br>
+    <footer>
+        <div id="footer">
+            <p>Created by: Fatima Badaoui</p>
+
+            <p>
+                Class: DCI_MAT23_E05
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
